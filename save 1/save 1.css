@@ -36,7 +36,7 @@ button{
     border: 1px solid transparent;
 }
 .container{
-    width: 1140px;
+    width: 1187px;
     margin: 0 auto;
 }
 
@@ -48,22 +48,13 @@ button{
   /* height: 123px;
     position: relative;*/
   display: flex;
-  margin-bottom: 114px;  
   justify-content: space-between;
-  padding: 0px;
-  align-items: center;
-  padding-top: 45px;
-}
-.footer__two-left {
-    margin-left: 57px;
+  padding: 20px;
 }
  .logo, .menu {
     display: inline-block;
  }
- .header__menu{
-    display: flex;
-    align-items: center;
- }
+
 
 
 .logo, .menu, .cotacts {
@@ -71,25 +62,17 @@ button{
 }
 
 .logo {
-   /* top: 15px
-   display: block;*/
-   margin-right: 15px;
+   /* top: 15px*/
 }
 
 .menu {
-    /*left: 163px;
+    /*left: 163px;*/
     margin-left: 75px;
-    top: 27px;*/
+    top: 27px;
     font-size: 16px;
     font-family: 'Open Sans';
 }
 
-.logo__icon {
-    margin-right: 62px}   /* очень сомневаюсь здесь*/
-
-.menu__item {
-    justify-content: flex-end;
-} 
 
 
 .menu__list :last-child {
@@ -113,23 +96,15 @@ button{
    /*font-size: 13px;
     /*top: -8px;
     position: relative;*/
-    /*float: right;*/
-    margin-left: 100px; /*не прижалсь с помощью justify-content: flex-end*/
+    float: right;
+    }
+
+.div .preview {
+    margin-left: 23px;
 }
-
-
-
-
-.preview{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 38%;
-}
-
 
 .main {   
-    margin-top: px;
+    margin-top: 97px;
 }
 
 .preview__title{
@@ -149,8 +124,8 @@ button{
     margin-bottom: 248px;
 }
 
-.preview{
-    /*margin-left: 25px;*/
+.div.preview {
+    margin-left: 25px;
 }
 
 .menu__item {
@@ -171,20 +146,20 @@ button{
     cursor: pointer;
 }
 
+
+
 .div.hot-tours__title
-{    display: flex;
-    margin-bottom: 48px;
+{    margin-bottom: 30px;
+    
 }
 
 .hot-tours__title{
-    /*margin-left: 25px;*/
-    margin-bottom: 53px;
-    display: flex;
-    align-items: center;
+    margin-left: 25px;
+    margin-bottom: 51px;
 }
 
 .hot-tours__title-text{
-    /*display: inline-block;*/
+    display: inline-block;
     font-size: 36px;
     }
     
@@ -198,47 +173,34 @@ button{
 }
 
 .hot-tours{
-    margin-bottom: 135px;
+    margin-bottom: 127px;
 }
-
-.hot-tours__title-icon {   
-     margin-left: 15px;
-    }
 
 .hot-tours__content {
     padding: 22px;
     padding-left: 22px;
     padding-right: 16px;}
 
-.hot-tours__list {
-    display: flex;
-    margin-bottom: 134px;
-    /*margin-left: 25px;*/
-}
 .hot-tours__title-item {
-    /*display: inline-block;
-    margin-right: 27px;
+    display: inline-block;
     width: 359px;
-    min-height: 449px;
-    border: 1px solid;*/
+    border: 1px solid;
     margin-right: 27px;
     background: #ffff;
     color: #000;
-    align-items: center;
-    width: 33%;
-
- 
+    min-height: 449px;
 }
 
 
+.hot-tours__list :last-child {
+    margin-right: 0px;
+}
 
 .hot-tours__subtitle {
-    /*font-weight: bold;
+    font-weight: bold;
     font-size: 24px;
     margin-bottom: 15px;
-    margin-left: 3px;*/
-    font-size: 24px;
-    margin-bottom: 15px;
+    margin-left: 3px;
 }
 .hot-tours__image{
     position: relative;
@@ -250,27 +212,16 @@ button{
     max-width: 100%;
 }
 
-.hot-tours__list :last-child {
+.hot-tours__picture:last-child {
     margin-right: 0px;
 }
 
-.hot-tours__options{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-bottom: 30px;
-   /*margin-left: 17px;*/
-}
-
-
 .hot-tours__options-item {
-   /* display: inline-block;
+    display: inline-block;
     padding-left: 0px;
     margin-right: 29px;
-    margin-bottom: 24,5px;*/
     color: #303030;
-
-    
+    margin-bottom: 24,5px;
 }
 
 .hot-tours__text{
@@ -278,13 +229,16 @@ button{
     margin-bottom: 31px;
 }
 
+
+.hot-tours__options{
+   margin-left: 17px;
+   margin-bottom: 30px;
+}
+
 .footer {
     position: relative;
 }
 
-.hot-tours__options-icon {
-    margin-right: 10px;
-}
 .news {
     margin-bottom: 142px;
 }
@@ -292,20 +246,15 @@ button{
 .news__title { 
     display: inline-block;
     font-size: 36px;
-   /* margin-left: 25px;*/
-    margin-bottom: 51px;
-}
+    margin-left: 7px;
+    margin-bottom: 51px;}
 
 .news__list { 
-     margin-bottom: 55px;
-     display: flex;
-    /* margin-left: 25px;*/
-    }
-
+     margin-bottom: 55px;}
 
 .news__item {
-    /*display: inline-block;
-    width: 555px;*/
+    display: inline-block;
+    width: 555px;
     margin-right: 25px;
     height: 394px;
     position: relative;
@@ -334,8 +283,6 @@ button{
     object-fit: cover;
 }
 
-.ul.news__list {}
-
 .news__content {
     position: absolute;
     left: 0;
@@ -343,16 +290,13 @@ button{
     bottom: -47px;
     padding: 0 32px;
     margin-bottom: 42px;
+    position: absolute;
     min-height: 140px;
 }
 
 
 .paginator{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
 }
 
 .paginator__display, .paginator__list, .paginator__item {display: inline-block;
@@ -360,8 +304,6 @@ button{
 
 .paginator__link {
     display: inline-block;
-    /* height: 32px;*/
-    margin-left: 15px;
     height: 32px;
     width: 32px;
     border-radius: 50%;
@@ -370,13 +312,14 @@ button{
     font-size: 16px;
     color: #ffff;
     line-height: 32px;
+    border-radius: 50%;
     transition: -4s;
 }
 
 .paginator__display {
-    /*margin-left: 10px;
+    margin-left: 10px;
     margin-block: 2px;
-    margin-bottom: 5px;*/
+    margin-bottom: 5px;
 }
 .paginator__link:hover {
     color: #f5170e;
@@ -422,7 +365,7 @@ button{
 
 }
 
-.hot-tours__title-item :last-child {
+.about__text p :last-child {
     margin-bottom: 0px;
     
 }
@@ -430,69 +373,41 @@ button{
 .about__content{
     display: inline-block;
     width: 783px;
-    margin-left: -143px;
+    margin-left: -142px;
     margin-top: 97px;
 }
 
-.footer {
-border-top: 1px solid;
+.footer {border-top: 1px solid;
 margin-top: 0px;
-margin-bottom: 0px;
-}
-
-
+margin-bottom: 0px;}
 .footer {
-    display: flex;
-    padding-top: 33px;
-    align-items: center;
-    margin-left: 0px;
-    justify-content: space-between;
-    /*justify-content: flex-end;*/
-}
-
-
-
-
-.footer__right{
-    padding-left: 7px;
-    /*float: right;
-   /* height: 152px;
-    position: relative;*/
+    height: 152px;
+    position: relative;
     }
-.contacts__tel {
-    margin-left: 10px;
-}
-
-.footer__right {
-    justify-content: flex-end;}
-
-
 .socials__link{
-    /*display: block;
+    display: block;
     text-decoration: none;
     width: 36px;
-    width: 36px;*/
-}
-
-.contacts__tel {
-    margin-left: 31px;
+    width: 36px;
 }
 
 .socials__item {
-   display: inline-block;
+    display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
 }
-
-.socials__list :last-child {
-    margin-right: 0px;
-}
-
-
-.socials__list  {    
-    margin-left: 221px;
-}
-.socials {
-    /*position: absolute;
+.socials{
     top: 45px;
-    right: 239px*/}
+    right: 239px;
+    position: absolute;
+}
+
+
+.socials__link :last-child {
+    margin-right: 0;
+}
+
+.socials__list :last-child{
+    margin-right:0 
+}
+
